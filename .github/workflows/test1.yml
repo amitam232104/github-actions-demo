@@ -17,3 +17,9 @@ jobs:
       - name: print message
         run: echo "hello! devops people"
 
+      - name: run multi line script
+        run: |
+          echo "this is multi line script"
+          ls -la
+          pwd  
+
